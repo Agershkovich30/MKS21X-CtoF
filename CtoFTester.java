@@ -13,8 +13,10 @@ public class CtoFTester{
   in the other form of it, so Celsius to Fahrenheit and vice versa.
   */
 
-
+public static double celsiusToFahrenheit(double tempInC) {
+  return (tempInC * 9.0/5 + 32);
+}
 public static void main (String[] args){
-
+System.out.println (celsiusToFahrenheit(30));
 }
 }
