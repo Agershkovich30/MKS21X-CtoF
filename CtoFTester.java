@@ -14,9 +14,19 @@ public class CtoFTester{
   */
 
 public static double celsiusToFahrenheit(double tempInC) {
-  return (tempInC * 9.0/5 + 32);
+  return (tempInC * (9.0/5) + 32);
+}
+public static double fahrenheitToCelsius(double tempInF) {
+  return ((tempInF- 32) * (5.0/9));
 }
 public static void main (String[] args){
 System.out.println (celsiusToFahrenheit(30));
+System.out.println (celsiusToFahrenheit(45));
+System.out.println (celsiusToFahrenheit(22));
+System.out.println (celsiusToFahrenheit(10));
+System.out.println (fahrenheitToCelsius(212));
+System.out.println (fahrenheitToCelsius(120));
+System.out.println (fahrenheitToCelsius(87));
+System.out.println (fahrenheitToCelsius(96));
 }
 }
