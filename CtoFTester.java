@@ -20,13 +20,13 @@ public static double fahrenheitToCelsius(double tempInF) {
   return ((tempInF- 32) * (5.0/9));
 }
 public static void main (String[] args){
-System.out.println (celsiusToFahrenheit(30));
-System.out.println (celsiusToFahrenheit(45));
-System.out.println (celsiusToFahrenheit(22));
-System.out.println (celsiusToFahrenheit(10));
-System.out.println (fahrenheitToCelsius(212));
-System.out.println (fahrenheitToCelsius(120));
-System.out.println (fahrenheitToCelsius(87));
-System.out.println (fahrenheitToCelsius(96));
+System.out.println (celsiusToFahrenheit(30) + ", expecting 86.0");
+System.out.println (celsiusToFahrenheit(45) + ", expecting 113.0");
+System.out.println (celsiusToFahrenheit(22) + ", expecting 71.6");
+System.out.println (celsiusToFahrenheit(10) + ", expecting 50.0");
+System.out.println (fahrenheitToCelsius(212) + ", expecting 100.0");
+System.out.println (fahrenheitToCelsius(120) + ", expecting 48.8889");
+System.out.println (fahrenheitToCelsius(87) + ", expecting 30.5555");
+System.out.println (fahrenheitToCelsius(96) + ", expecting 35.555");
 }
 }
